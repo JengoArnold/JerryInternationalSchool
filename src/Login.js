@@ -25,7 +25,9 @@ const handleLogin = async (e) => {
 
     // Later you can redirect to your dashboard here
 
-  } catch (err) {
+  } 
+  
+  catch (err) {
     console.log(err);
     setError(err.message);
   }
